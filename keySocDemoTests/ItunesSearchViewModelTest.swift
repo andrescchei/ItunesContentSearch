@@ -6,14 +6,19 @@
 //
 
 import XCTest
+//import RxTest
 @testable import keySocDemo
 
 final class ItunesSearchViewModelTest: XCTestCase {
     
     func testItunesSearchViewModel_Should_Exist() throws {
-        var vm = ItunesSearchResultViewModel(
-            getItunesSearchResultUseCase: MoackSearchItunesUseCase()
+        let vm = ItunesSearchResultViewModel(
+            getItunesSearchResultUseCase: MockSearchItunesUseCase()
         )
     }
-
+    
+    func testSearchItunesUseCase_Obs_Return_Empty_Array() throws {
+//        let useCase = MockSearchItunesUseCase()
+//        useCase.searchItunesUseCase().subscribe()
+    }
 }

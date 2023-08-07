@@ -1,13 +1,13 @@
 //
-//  keySocDemoUITestsLaunchTests.swift
-//  keySocDemoUITests
+//  keySocCodeTestUITestsLaunchTests.swift
+//  keySocCodeTestUITests
 //
-//  Created by Andres Chan (做野) on 7/8/2023.
+//  Created by Andres Chan (做野) on 3/8/2023.
 //
 
 import XCTest
 
-final class keySocDemoUITestsLaunchTests: XCTestCase {
+final class keySocCodeTestUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

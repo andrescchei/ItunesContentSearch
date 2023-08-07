@@ -11,7 +11,7 @@ protocol SearchItunesUseCase {
     func searchItunesUseCase() -> [ItunesContentModel]
 }
 
-struct MoackSearchItunesUseCase: SearchItunesUseCase {
+struct MockSearchItunesUseCase: SearchItunesUseCase {
     func searchItunesUseCase() -> [ItunesContentModel] {
         return []
     }
